@@ -23,7 +23,14 @@
 
   <!-- Custom icons for this template -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css">
 
+  <!-- Custom internacionalization for this template -->
+  <script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="vendor/jquery-i18n/jquery.i18n.properties-min.js"></script>
+ 
+
+  <script type="text/javascript" src="js/global.js"></script>
 </head>
 
 <body id="page-top">
@@ -60,6 +67,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#languages">Línguas</a>
+        </li>
+        <li class="nav-item">
+          <span id="btn-language-pt" class="flag-icon flag-icon-br" data-locale="pt"
+          title="Mudar idioma para português"></span>
+          <span id="btn-language-en" class="flag-icon flag-icon-us" data-locale="en"
+          title="Mudar idioma para inglês"></span>
         </li>
       </ul>
     </div>
@@ -299,6 +312,12 @@
           </li>
           <li class="list-inline-item">
             <i class="devicon-apache-line-wordmark" title="Apache Server" style="font-size: 4rem; position: relative; top: 10px;"></i>
+          </li>
+          <li class="list-inline-item" style="margin-top: -15px;">
+            <span title="pgAdmin" 
+              style="font-family: 'Italiana'; font-style: bold; font-size: 20px; position: relative; bottom: 15px;">
+              pgAdmin
+            </span>
           </li>
         </ul>
 
