@@ -120,6 +120,7 @@ p.lead {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    height: auto;
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -146,6 +147,24 @@ p.lead {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
+  }
+  .d-lg-none {
+    display: none !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .img-profile {
+    max-height: 40px;
+    max-width: 40px;
+    height: 40px;
+    width: auto;
+  }
+  .avatar-padding {
+    padding-right: 5px;
+  }
+  .d-lg-none {
+    display: inline !important;
   }
 }
 

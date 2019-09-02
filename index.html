@@ -7,8 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <!-- Favicon made by https://icon-library.net -->
+  <link rel="shortcut icon" href="./favicon.ico">
 
-  <title>Resume - Cacaudev</title>
+  <title>Cláudia Abreu - CV</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,6 +33,7 @@
   <script type="text/javascript" src="vendor/jquery-i18n/jquery.i18n.properties-min.js"></script>
  
   <script>
+    /*** Internacionalization still in construciont ***/
     let lang = 'browser';
     jQuery.i18n.properties({
       name:'Messages',
@@ -51,12 +54,15 @@
 
 <body id="page-top">
 
+  <noscript> english: You need to enable JavaScript to run this app.</noscript>
+  <noscript> portuguese: Você precisa ativar o JavaScript para executar essa aplicação.</noscript>
+
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Cacaudev - Currículo</span>
-      <span class="d-none d-lg-block">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">     
+      <span class="avatar-padding" style="display: inline !important;">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="Profile Image">
-      </span>
+      </span>      
+      <span class="d-block d-lg-none">Cláudia Abreu - CV</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -84,19 +90,20 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Prêmios</a>
         </li>
-        <li class="nav-item">
-          <!--
+        <!--<li class="nav-item">
+          
           <span id="lang" class="flag-icon flag-icon-br" data-locale="pt" value="pt"
           title="Mudar idioma para português"></span>
           <span id="lang" class="flag-icon flag-icon-us" data-locale="en" value="en"
           title="Mudar idioma para inglês"></span>
-          -->
+          
           <a class="nav-link js-scroll-trigger">Idioma</a>
             <select id="lang">
                 <option value="en">en</option>
                 <option value="pt" selected>pt</option>
             </select>
         </li>
+        -->
       </ul>
     </div>
   </nav>
@@ -108,7 +115,7 @@
         <h1 class="mb-0">Cacau
           <span class="text-primary">dev</span>
         </h1>
-        <div class="subheading mb-5">Claudia Abreu · Desenvolvedora Back-end ·
+        <div class="subheading mb-5">Claudia Abreu · 26 anos · Desenvolvedora Back-end · 
           <a href="mailto:name@email.com">cacauabreu2013@gmail.com</a>
         </div>
         <p class="lead mb-5">
@@ -387,20 +394,6 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Prêmios &amp; Competições</h2>
-        <ul class="fa-ul mb-0">        
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1º Lugar - Universidade Federal de Viçosa - Desafio APP DPI/CIENTEC 2018
-          </li>        
-        </ul>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="languages">
       <div class="w-100">
         <h2 class="mb-5">Línguas</h2>
@@ -420,6 +413,20 @@
             <i class="fa fa-star text-warning"></i>
             <i class="fa fa-star-half text-warning"></i>
           </li>       
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">    
+    
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Prêmios &amp; Competições</h2>
+        <ul class="fa-ul mb-0">        
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1º Lugar - Universidade Federal de Viçosa - Desafio APP DPI/CIENTEC 2018
+          </li>        
         </ul>
       </div>
     </section>
