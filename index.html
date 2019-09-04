@@ -28,29 +28,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css">
 
   <!-- Custom internacionalization for this template -->
-  <!--<script type="text/javascript" src="vendor/jquery/jquery.min.js"></script>-->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
-  <script type="text/javascript" src="vendor/jquery-i18n/jquery.i18n.properties-min.js"></script>
- 
-  <script>
-    /*** Internacionalization still in construciont ***/
-    let lang = 'browser';
-    jQuery.i18n.properties({
-      name:'Messages',
-      path:'locales/',
-      mode:'both',
-      language: lang, 
-      checkAvailableLanguages: true,
-      async: true,
-      callback: function() {
-        jQuery.i18n.prop() 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.js"></script>
 
-        $("#about-title").text(jQuery.i18n.prop('about', lang));
-        console.log("lang ", lang)
-      } 
-    });
-  </script>
-</head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.messagestore.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.fallbacks.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.language.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.parser.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.emitter.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.emitter.bidi.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/history.js/1.8/bundled/html4+html5/jquery.history.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/2.5.3/url.min.js"></script>
+
+  <script type="text/javascript" src="./js/i18n_config.js"></script>
+ </head>
 
 <body id="page-top">
 
@@ -70,7 +62,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about" id="about-title">Sobre</a>
+          <a class="nav-link js-scroll-trigger" href="#about" id="about-title" data-i18n="about">Sobre</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#experience">Experiência</a>
