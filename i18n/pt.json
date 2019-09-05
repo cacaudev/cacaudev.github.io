@@ -1,19 +1,24 @@
 {
-    "@metadata": {
-        "authors": [
-          "Cacau"
-        ]
-    },
+  "@metadata": {
+      "authors": [
+        "Cacau"
+      ]
+  },
 
-    "language": "Idioma",
-    "languages-portuguese": "Português",
-    "languages-english": "Inglês",
-        
-    "menu-about": "Sobre",
-    "menu-experience": "Experiência",
-    "menu-education": "Educação",
-    "menu-skills": "Já trabalhei com",
-    "menu-interests": "Interesses",
-    "menu-languages": "Línguas",
-    "menu-prizes": "Prêmios"
+  "language": "Idioma",
+  "languages-portuguese": "Português",
+  "languages-english": "Inglês",
+      
+  "menu-about": "Sobre",
+  "menu-experience": "Experiência",
+  "menu-education": "Educação",
+  "menu-skills": "Já trabalhei com",
+  "menu-interests": "Interesses",
+  "menu-languages": "Línguas",
+  "menu-prizes": "Prêmios",
+
+  "years": "anos",
+  "developer-backend": "Desenvolvedora Back-end",
+
+  "about-paragraph": "Olá! Sou desenvolvedora web focada em back-end. Atualmente trabalhando na TacticUP - Software e Consultoria para o esporte LTDA, Viçosa - MG."
   }

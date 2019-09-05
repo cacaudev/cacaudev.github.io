@@ -15,5 +15,10 @@
   "menu-skills": "Skills",
   "menu-interests": "Interests",
   "menu-languages": "Languages",
-  "menu-prizes": "Prizes"
+  "menu-prizes": "Prizes",
+
+  "years": "years",
+  "developer-backend": "Back-end Developer",
+
+  "about-paragraph": "Hello! I'm a web developer focused on back-end. Currenctly working on TacticUP - Software and Sport Consulting LTDA, Viçosa - Brazil."
 }
