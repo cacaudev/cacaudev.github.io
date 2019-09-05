@@ -20,7 +20,13 @@
 
   "years": "anos",
   "intermediary": "Intermediário",  
-  "developer-backend": "Desenvolvedora Back-end",
+  "developer-backend": "Desenvolvedora Web Back-end",
+  "technology-stack": "Stack de Tecnologias",
 
-  "about-paragraph": "Olá! Sou desenvolvedora web focada em back-end. Atualmente trabalhando na TacticUP - Software e Consultoria para o esporte LTDA, Viçosa - MG."
+  "about-paragraph": "Olá! Sou desenvolvedora web focada em back-end. Atualmente trabalhando na TacticUP - Software e Consultoria para o esporte LTDA, Viçosa - MG.",
+  "experience-internship": "Estagiária em Desenvolvimento Web",
+  "mobile-developer": "Desenvolvedora Web & Mobile",
+  "present-job-date": "Fevereiro 2019 - Presente",
+  "internship-job-date": "Novembro 2018 - Janeiro 2019",
+  "mobile-job-date": "Fevereiro 2018 - Setembro 2018"
   }
