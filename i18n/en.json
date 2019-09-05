@@ -6,6 +6,7 @@
   },
   
   "language": "Language",
+  "native-language": "Native Language",
   "languages-portuguese": "Portuguese",
   "languages-english": "English",
       
@@ -18,6 +19,7 @@
   "menu-prizes": "Prizes",
 
   "years": "years",
+  "intermediary": "Intermediary",  
   "developer-backend": "Back-end Developer",
 
   "about-paragraph": "Hello! I'm a web developer focused on back-end. Currenctly working on TacticUP - Software and Sport Consulting LTDA, Viçosa - Brazil."
