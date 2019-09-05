@@ -8,7 +8,9 @@
     "paragraph-title": "This is test for curriculum internacionalization",
     "paragraph-with-args": "A letter from {{sitename}}",
    
-    "portuguese": "Brazilian Portuguese",
+    "portuguese": "Portuguese",
     "english": "English",
+    "language": "Language",
+
     "about": "About"
 }

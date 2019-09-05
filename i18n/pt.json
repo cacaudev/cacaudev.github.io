@@ -8,7 +8,8 @@
     "paragraph-title": "Esse é um teste para internacionalização do meu currículo",
     "paragraph-with-args": "Uma carta de {{sitename}}",
 
-    "portuguese": "Português Brasileiro",
+    "portuguese": "Português",
     "english": "Inglês",
+    "language": "Idioma",
     "about": "Sobre"
   }

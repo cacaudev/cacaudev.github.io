@@ -26,22 +26,7 @@
   <!-- Custom icons for this template -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css">
-
-  <!-- Custom internacionalization for this template -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.messagestore.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.fallbacks.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.language.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.parser.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.emitter.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.emitter.bidi.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/history.js/1.8/bundled/html4+html5/jquery.history.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/2.5.3/url.min.js"></script>
-
-  <script type="text/javascript" src="./js/i18n_config.js"></script>
+ 
  </head>
 
 <body id="page-top">
@@ -82,20 +67,26 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Prêmios</a>
         </li>
-        <!--<li class="nav-item">
+        <li class="nav-item">
           
-          <span id="lang" class="flag-icon flag-icon-br" data-locale="pt" value="pt"
-          title="Mudar idioma para português"></span>
-          <span id="lang" class="flag-icon flag-icon-us" data-locale="en" value="en"
-          title="Mudar idioma para inglês"></span>
-          
-          <a class="nav-link js-scroll-trigger">Idioma</a>
-            <select id="lang">
-                <option value="en">en</option>
-                <option value="pt" selected>pt</option>
-            </select>
-        </li>
-        -->
+          <ul class="languagepicker roundborders large switch-locale">
+            <a href="#"><li data-i18n="language">Idioma</li></a>
+            <a href="#" data-locale="pt">
+              <li>
+                <span id="lang" class="flag-icon flag-icon-br" data-locale="pt" value="pt"
+                  title="Mudar idioma para português"></span>
+                <span data-i18n="portuguese"></span>
+              </li>
+            </a>
+            <a href="#" data-locale="en">
+              <li>
+                <span id="lang" class="flag-icon flag-icon-us" data-locale="en" value="en"
+                  title="Mudar idioma para inglês"></span>
+                <span data-i18n="english"></span>
+              </li>
+             </a>
+          </ul>   
+        </li>        
       </ul>
     </div>
   </nav>
@@ -417,6 +408,20 @@
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
 
-</body>
+  <!-- Custom internacionalization for this template -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.messagestore.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.fallbacks.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.language.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.parser.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.emitter.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.emitter.bidi.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/history.js/1.8/bundled/html4+html5/jquery.history.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-url/2.5.3/url.min.js"></script>
+
+  <script src="js/i18n_config.min.js"></script>
+ 
+</body>
 </html>
