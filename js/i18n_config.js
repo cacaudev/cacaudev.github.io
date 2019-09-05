@@ -1,4 +1,4 @@
-(function($) {
+(function ($) {
     "use strict"; // Start of use strict
 
     var set_locale_to = function (locale) {
@@ -9,9 +9,9 @@
 
     $(function () {
         $.extend($.i18n.parser.emitter, {
-            sitename: function() {
+            sitename: function () {
                 return "App To Test $";
-            } 
+            }
         });
     });
 
@@ -41,7 +41,6 @@
             // Change the locale upon click event on button
             $('.switch-locale').on('click', 'a', function (e) {
                 e.preventDefault();
-                //$.i18n().locale = $(this).data('locale');
                 History.pushState(null, null, "?locale=" + $(this).data('locale'));
             });
         });
