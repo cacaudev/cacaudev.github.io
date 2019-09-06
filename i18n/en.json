@@ -6,20 +6,20 @@
   },
   
   "language": "Language",
-  "native-language": "Native Language",
+  "native-language": "Native",
   "languages-portuguese": "Portuguese",
   "languages-english": "English",
+  "languages-intermediary": "Intermediate",
       
   "menu-about": "About",
   "menu-experience": "Experience",
   "menu-education": "Education",
   "menu-skills": "Skills",
   "menu-interests": "Interests",
-  "menu-languages": "Languages",
+  "menu-languages": "Language skills",
   "menu-prizes": "Prizes",
 
-  "years": "years",
-  "intermediary": "Intermediary",  
+  "years": "years",  
   "developer-backend": "Back-end Web Developer",
   "technology-stack": "Technology Stack",
 
@@ -29,7 +29,7 @@
   "present-job-date": "February 2019 - Present",
   "internship-job-date": "November 2018 - January 2019",
   "mobile-job-date": "February 2018 - September 2018",
-  "education-bachelor": "Computer Science Bachelor Degree",
+  "education-bachelor": "Bachelor's Degree in Computer Science",
   "ufv": "Federal University of Viçosa - UFV",
   "programming-languages": "Languages"
 }

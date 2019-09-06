@@ -9,6 +9,7 @@
   "native-language": "Língua Nativa",
   "languages-portuguese": "Português",
   "languages-english": "Inglês",
+  "languages-intermediary": "Intermediário",
       
   "menu-about": "Sobre",
   "menu-experience": "Experiência",
@@ -19,7 +20,6 @@
   "menu-prizes": "Prêmios",
 
   "years": "anos",
-  "intermediary": "Intermediário",  
   "developer-backend": "Desenvolvedora Web Back-end",
   "technology-stack": "Stack de Tecnologias",
 
