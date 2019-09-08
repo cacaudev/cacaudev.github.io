@@ -31,5 +31,9 @@
   "mobile-job-date": "February 2018 - September 2018",
   "education-bachelor": "Bachelor's Degree in Computer Science",
   "ufv": "Federal University of Viçosa - UFV",
-  "programming-languages": "Languages"
+
+  "programming-languages": "Languages",
+  "skills-libraries": "Libraries",
+  "skills-databases": "Databases and ORMs",
+  "skills-tools": "Tools"
 }

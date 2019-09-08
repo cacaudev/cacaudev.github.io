@@ -31,5 +31,9 @@
   "mobile-job-date": "Fevereiro 2018 - Setembro 2018",
   "education-bachelor": "Bacharelado em Ciência da Computação",
   "ufv": "Universidade Federal de Viçosa - UFV",
-  "programming-languages": "Linguagens"
+
+  "programming-languages": "Linguagens",
+  "skills-libraries": "Bibliotecas",
+  "skills-databases": "Banco de Dados e ORMs",
+  "skills-tools": "Ferramentas"
 }
