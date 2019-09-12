@@ -36,5 +36,7 @@
   "programming-languages": "Languages",
   "skills-libraries": "Libraries",
   "skills-databases": "Databases and ORMs",
-  "skills-tools": "Tools"
+  "skills-tools": "Tools",
+
+  "skills-devops": "Continous Integration and Continuos Delivery (DevOps)"
 }

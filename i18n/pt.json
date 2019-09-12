@@ -36,5 +36,7 @@
   "programming-languages": "Linguagens",
   "skills-libraries": "Bibliotecas",
   "skills-databases": "Banco de Dados e ORMs",
-  "skills-tools": "Ferramentas"
+  "skills-tools": "Ferramentas",
+
+  "skills-devops": "Integração, deploy e entrega contínua (DevOps)"
 }
