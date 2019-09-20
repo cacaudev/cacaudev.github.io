@@ -46,5 +46,7 @@
   "experience-mobile": "Desenvolvimento de API REST e integração desta com aplicativo Android",
   "experience-mobile-about": "Participei do Desafio APP DPI/Cientec no último ano da graduação. A competição foi uma parceria entre o Departamento de Informática da Universidade Federal de Viçosa e a grupo de empresas composto pela Cientec Aceleradora. Cada grupo teve a oportunidade de trabalhar em um projeto real ao implementar um aplicativo mobile com reuniões mensais com a equipe de colaboradores de cada empresa.",
   
-  "skills-devops": "Integração, deploy e entrega contínua (DevOps)"
+  "skills-devops": "Integração, deploy e entrega contínua (DevOps)",
+
+  "award": "1º Lugar - Desafio APP DPI/CIENTEC 2018 - Universidade Federal de Viçosa"
 }

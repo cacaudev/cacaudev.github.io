@@ -45,5 +45,7 @@
   "experience-mobile": "REST API development and integration with Android application",
   "experience-mobile-about": "I participated in the DPI/Cientec APP Challenge in the last year of graduation. The competition was a partnership between the Computing Department of the Federal University of Viçosa and the Venture Builder company Cientec. Each group had the opportunity to work on a real project by implementing a mobile app with monthly meetings with the staff of each company.",
   
-  "skills-devops": "Continous Integration and Continuos Delivery (DevOps)"
+  "skills-devops": "Continous Integration and Continuos Delivery (DevOps)",
+
+  "award": "1º Place - DPI/CIENTEC APP Challenge 2018 - Federal University of Viçosa"
 }
