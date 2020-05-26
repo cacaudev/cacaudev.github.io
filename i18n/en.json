@@ -1,16 +1,14 @@
 {
   "@metadata": {
-      "authors": [
-        "Cacau"
-      ]
+    "authors": [
+      "Cacau"
+    ]
   },
-  
   "language": "Language",
   "native-language": "Native",
   "languages-portuguese": "Portuguese",
   "languages-english": "English",
   "languages-intermediary": "Intermediate",
-      
   "menu-about": "About",
   "menu-experience": "Professional Background",
   "menu-education": "Education",
@@ -18,11 +16,9 @@
   "menu-interests": "Interests",
   "menu-languages": "Language skills",
   "menu-prizes": "Awards",
-
-  "years": "years",  
+  "years": "years",
   "developer-backend": "Back-end Web Developer",
   "technology-stack": "Technology Stack",
-
   "about-paragraph": "Hello! I'm a web developer focused on back-end and devops. Currently working on TacticUP - Software and Sport Consulting LTDA, Viçosa - Brazil.",
   "experience-internship": "Web Developer Intern",
   "mobile-developer": "Web & Mobile Developer",
@@ -32,20 +28,17 @@
   "education-bachelor": "Bachelor's Degree in Computer Science",
   "ufv": "Federal University of Viçosa - UFV",
   "tacticup-company": "TacticUP - Software and Sport Consulting",
-
   "programming-languages": "Languages",
   "skills-libraries": "Libraries",
   "skills-databases": "Databases and ORMs",
   "skills-tools": "Tools",
-
   "experience-api-rest": "REST API development, documentation and maintenance",
-  "experience-tests": "Test Development and Automation",
+  "experience-tests": "Back-end Test Development and Automation",
   "experience-microservices": "Implementation and maintenance of microservices infrastructure at AWS",
-  "experience-internship-web":  "Website Front-End and Back-End Maintenance",
+  "experience-internship-web": "Website Front-End and Back-End Maintenance",
   "experience-mobile": "REST API development and integration with Android application",
   "experience-mobile-about": "I participated in the DPI/Cientec APP Challenge in the last year of graduation. The competition was a partnership between the Computing Department of the Federal University of Viçosa and the Venture Builder company Cientec. Each group had the opportunity to work on a real project by implementing a mobile app with monthly meetings with the staff of each company.",
-  
+  "interfaces-react": "Development and Maintenance of interfaces in ReactJS",
   "skills-devops": "Continous Integration and Continuos Delivery (DevOps)",
-
   "award": "1º Place - DPI/CIENTEC APP Challenge 2018 - Federal University of Viçosa"
 }
